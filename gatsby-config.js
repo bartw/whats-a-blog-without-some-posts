@@ -20,6 +20,14 @@ module.exports = {
         display: `standalone`,
         icon: `src/images/icon.svg`
       }
-    }
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/posts`
+      }
+    },
+    `gatsby-transformer-remark`
   ]
 };
