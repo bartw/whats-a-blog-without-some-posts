@@ -1,6 +1,6 @@
-# no-name-yet
+# whats-a-blog-without-some-posts
 
-Repo for blog post: https://dev.bartwijnants.be/no-name-yet/
+Repo for blog post: https://dev.bartwijnants.be/whats-a-blog-without-some-posts/
 
 ## quickstart
 
