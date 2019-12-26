@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql } from "gatsby";
+import Layout from "../components/layout";
 
 export default ({
   data: {
@@ -10,11 +11,13 @@ export default ({
   }
 }) => {
   return (
-    <div>
-      <time dateTime={date}>{formattedDate}</time>
-      <h1>{title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
-    </div>
+    <Layout>
+      <div className="mt-4">
+        <time dateTime={date}>{formattedDate}</time>
+        <h1>{title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: html }} />
+      </div>
+    </Layout>
   );
 };
 
